@@ -16,7 +16,7 @@ The goal of our project is to develop a predictive model for the FIFA World Cup 
 `pip install pymongo dnspython python-dotenv`
 
 ### 3. Set Up Environment Variables
-Create a `.env` file in the root directory the cloned repo. This file will contain your MongoDB connection credentials. Use example.env as a template to create `.env`
+Create a `.env` file in the root directory the cloned repo. This file will contain your MongoDB connection credentials. Use `example.env` as a template to create `.env`
 
 Replace `your_username` and `your_password` with your actual MongoDB credentials. The code in the `worldcup.ipynb` will pull in these variables from the `.env` file automatically.
 
