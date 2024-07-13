@@ -4,9 +4,8 @@
 The goal of our project is to develop a predictive model for the FIFA World Cup outcomes using a large dataset of international football matches. This project aims to leverage data science techniques learned in class such as single/multiple linear regression, classification, and bagging to analyze historical match data and predict the outcomes of future matches.
 
 ## Team Members: 
-|                |               |                |                |
-| :------------: | :-----------: | :------------: | :------------: |
 | Bryan Quintero | Scott Willard | Jayden McKenna | Ernesto Rendon |
+| :------------: | :-----------: | :------------: | :------------: |
 |    48344993    |    44868436   |    80364767    |    94109996    |
 
 ## Usage
