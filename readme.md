@@ -16,17 +16,13 @@ The goal of our project is to develop a predictive model for the FIFA World Cup 
 ### 2. Navigate to the project directory
 `cd cap4770-finalproject`
 
-### 3. Create and activate a Python virtual environment using Pipenv
-```
-pip install pipenv
-pipenv install
-```
-
-### 4. Run the setup script
+### 3. Run the setup script
 `./setup.sh`
 
-### 5. Input MongoDB Credentials
-Replace `your_username` and `your_password` in the `.env` file with your actual MongoDB credentials. 
+This will create and activate a Python virtual environment (venv), and then install the dependencies into it.
+
+### 4. Input MongoDB Credentials
+Replace `your_username` and `your_password` in the newly-created `.env` file with your actual MongoDB credentials. 
 
 The notebooks will pull in these variables from the `.env` file automatically.
 
