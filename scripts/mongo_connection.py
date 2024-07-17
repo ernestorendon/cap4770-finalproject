@@ -1,4 +1,8 @@
 # scripts/mongo_connection.py
+# This script establishes the back-end connection of the project to the MongoDB database
+
+# It's used by every model to connect to and query the database
+
 import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
