@@ -23,3 +23,8 @@ def get_matches_collection():
     client = get_mongo_client()
     db = client[os.getenv('MONGO_DBNAME')]
     return db['matches']
+
+def get_penalties_collection():
+    client = get_mongo_client()
+    db = client[os.getenv('MONGO_DBNAME')]
+    return db['penalties']
