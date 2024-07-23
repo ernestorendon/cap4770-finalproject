@@ -2,4 +2,8 @@ pymongo
 dnspython
 python-dotenv
 ipykernel
+<<<<<<< HEAD
 scikit-learn
+=======
+scikit-learn
+>>>>>>> 8cdf964e226ac2e85b093f73dd616cbef48265d8
