@@ -1,6 +1,7 @@
 pymongo
 dnspython
-pandas
 python-dotenv
 ipykernel
 scikit-learn
+matplotlib
+seaborn
