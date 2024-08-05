@@ -17,7 +17,4 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Copy .env.example to .env
-cp example.env .env
-
-echo "Setup complete. Please edit the .env file with your MongoDB credentials."
+echo "Setup complete."
