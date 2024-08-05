@@ -26,14 +26,12 @@ The goal of our project is to develop a predictive model for the FIFA World Cup 
 
 This will create and activate a Python virtual environment (venv), and then install the dependencies into it.
 
-### 4. Input MongoDB Credentials
-
-Replace `your_username` and `your_password` in the newly-created `.env` file with your actual MongoDB credentials.
+Additionally, the provided `.env` file contains a guest account with access to the dataset.
 
 The notebooks will pull in these variables from the `.env` file automatically.
 
-### 6. Use the Jupyter notebook
+### 4. Use the Jupyter notebooks
 
-After creating and modifying the `.env` file accordingly, you'll be able to use the MongoDB and query it as normal.
+After the script finishes activating the virtual environment and installing the dependencies, you'll be able to use the MongoDB and query it as normal.
 
 Some example code is included there for testing; simply run the code in the cell to try it out.
